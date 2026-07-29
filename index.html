@@ -1,420 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shahzaib Ahmad — Accountant | Finance Professional | SOCPA Member</title>
+<style>
+  :root{
+    --navy:#12284b; --navy2:#1f3d6e; --accent:#2f6df0; --ink:#1c2430;
+    --muted:#5b6672; --line:#e6e9ef; --bg:#f6f8fc; --card:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px;margin:0 auto;padding:0 22px}
 
-<title>Shahzaib Ahmad | Accountant | Financial Analyst</title>
+  /* Header */
+  header{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;padding:54px 0 46px}
+  header .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px;justify-content:space-between}
+  .name{font-size:34px;font-weight:700;letter-spacing:.3px}
+  .role{font-size:15px;color:#cdd8ee;margin-top:6px;text-transform:uppercase;letter-spacing:1.5px}
+  .contact{margin-top:18px;font-size:14.5px;color:#e4ebfa;display:flex;flex-wrap:wrap;gap:8px 18px}
+  .contact span,.contact a{color:#e4ebfa}
+  .badge{display:inline-block;margin-top:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);
+         padding:7px 14px;border-radius:30px;font-size:13px;color:#fff}
 
-<link rel="stylesheet" href="styles.css">
+  /* Sections */
+  section{padding:40px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:20px;color:var(--navy);letter-spacing:.4px;text-transform:uppercase;margin-bottom:18px;
+     display:flex;align-items:center;gap:12px}
+  h2::after{content:"";flex:1;height:2px;background:var(--line)}
+  p.lead{font-size:15.5px;color:#33404f}
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  /* Competencies grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px 22px;margin-top:6px}
+  .grid li{list-style:none;padding-left:20px;position:relative;font-size:14.5px;color:#31404f}
+  .grid li::before{content:"▸";position:absolute;left:0;color:var(--accent)}
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  /* Cards */
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 20px 18px;
+        box-shadow:0 2px 8px rgba(20,40,75,.04)}
+  .card h3{font-size:16px;color:var(--navy);margin-bottom:8px}
+  .card p{font-size:14px;color:var(--muted)}
+  .tag{display:inline-block;margin:10px 6px 0 0;background:#eef3ff;color:var(--navy2);
+       font-size:12px;padding:4px 10px;border-radius:20px}
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  /* Timeline / education / certs */
+  .item{margin-bottom:18px;padding-left:18px;border-left:3px solid var(--accent)}
+  .item h3{font-size:16px;color:var(--ink)}
+  .item .meta{font-size:13px;color:var(--muted);margin:2px 0 6px}
+  .item ul{margin:6px 0 0 18px}
+  .item li{font-size:14px;color:#31404f;margin-bottom:4px}
 
+  .note{background:#fff8e6;border:1px dashed #e3c56b;border-radius:10px;padding:16px 18px;font-size:14px;color:#6b5a2a}
+
+  /* Skills bar */
+  .skills p{font-size:14.5px;margin-bottom:8px}
+  .skills strong{color:var(--navy)}
+
+  footer{background:var(--navy);color:#c7d3ea;text-align:center;padding:26px 0;font-size:13.5px}
+  footer a{color:#fff}
+</style>
 </head>
-
 <body>
+
 <header>
-
-<div class="container">
-
-<div class="logo">
-Shahzaib Ahmad
-</div>
-
-<nav>
-
-<ul>
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#skills">Skills</a></li>
-
-<li><a href="#experience">Experience</a></li>
-
-<li><a href="#projects">Projects</a></li>
-
-<li><a href="#education">Education</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-</div>
-
+  <div class="wrap">
+    <div>
+      <div class="name">Shahzaib Ahmad</div>
+      <div class="role">Accountant · Finance Professional · SOCPA Registered Member</div>
+      <div class="contact">
+        <span>📞 +92 318 090 5907</span>
+        <a href="mailto:shahzaibahmadllc@gmail.com">✉ shahzaibahmadllc@gmail.com</a>
+        <a href="https://www.linkedin.com/in/shahzaibahmadllc" target="_blank">in/shahzaibahmadllc</a>
+      </div>
+      <div class="badge">Saudi Arabia · Pakistani National · Transferable Iqama · Available Immediately</div>
+    </div>
+  </div>
 </header>
-<section class="hero" id="home">
 
-<div class="container hero-content">
-
-<div class="hero-text">
-
-<h1>Shahzaib Ahmad</h1>
-
-<h2>
-Accountant | Financial Analyst | SOCPA Registered Member
-</h2>
-
-<p>
-
-Accounting & Finance Professional specializing in Financial Reporting,
-General Ledger, Financial Modeling, Power BI, SQL and Advanced Excel.
-
-</p>
-
-<a href="#projects" class="btn">
-
-View My Projects
-
-</a>
-
-</div>
-
-<div class="hero-image">
-
-<img src="photo.jpg" alt="Shahzaib Ahmad">
-
-</div>
-
-</div>
-
-</section>
-<section id="about">
-
-<div class="container">
-
-<h2>About Me</h2>
-
-<p>
-
-I am an Accounting and Finance professional with practical experience in
-General Ledger, Accounts Payable, Accounts Receivable,
-Bank Reconciliation, Inventory Management,
-Financial Reporting and Financial Analysis.
-
-I hold a Bachelor of Business Administration in Accounting & Finance,
-Advanced Diploma in Public Accounting,
-Post Graduate Diploma in Public Accounting
-and I am a SOCPA Registered Member.
-
-I enjoy using Power BI, SQL and Microsoft Excel to transform financial
-data into meaningful business insights.
-
-</p>
-
-</div>
-
-</section>
-<section id="skills">
-
-<div class="container">
-
-<h2>Professional Skills</h2>
-
-<div class="skills-grid">
-
-<div class="skill-card">Financial Accounting</div>
-
-<div class="skill-card">General Ledger</div>
-
-<div class="skill-card">Accounts Payable</div>
-
-<div class="skill-card">Accounts Receivable</div>
-
-<div class="skill-card">Bank Reconciliation</div>
-
-<div class="skill-card">Inventory Management</div>
-
-<div class="skill-card">Financial Reporting</div>
-
-<div class="skill-card">Financial Modeling</div>
-
-<div class="skill-card">Microsoft Excel</div>
-
-<div class="skill-card">Power BI</div>
-
-<div class="skill-card">SQL</div>
-
-<div class="skill-card">Budgeting & Forecasting</div>
-
-</div>
-
-</div>
-
-</section>
-  <!-- ================= EXPERIENCE ================= -->
-
-<section id="experience">
-
-<div class="container">
-
-<h2 class="section-title">Professional Experience</h2>
-
-<div class="experience-grid">
-
-<div class="experience-card">
-
-<h3>Accountant</h3>
-
-<h4>Amirah Meshal Foods</h4>
-
-<p class="location">Riyadh, Saudi Arabia</p>
-
-<p class="date">October 2025 – March 2026</p>
-
-<ul>
-
-<li>Managed warehouse inventory and stock control.</li>
-
-<li>Performed inventory reconciliation and stock verification.</li>
-
-<li>Prepared purchase and sales invoices.</li>
-
-<li>Recorded daily accounting transactions.</li>
-
-<li>Maintained supplier and customer records.</li>
-
-<li>Handled petty cash and daily cash reconciliation.</li>
-
-<li>Processed payments and receipts.</li>
-
-<li>Supported monthly financial reporting.</li>
-
-<li>Maintained accounting documentation.</li>
-
-<li>Worked closely with warehouse and procurement teams.</li>
-
-</ul>
-
-</div>
-
-
-
-<div class="experience-card">
-
-<h3>Financial Accountant</h3>
-
-<h4>Dar Ul Asas (Khair Al Daim)</h4>
-
-<p class="location">Riyadh, Saudi Arabia</p>
-
-<p class="date">January 2025 – July 2025</p>
-
-<ul>
-
-<li>Managed the complete accounting cycle.</li>
-
-<li>Prepared General Ledger and Journal Entries.</li>
-
-<li>Managed Accounts Receivable and Collections.</li>
-
-<li>Processed Accounts Payable.</li>
-
-<li>Performed monthly Bank Reconciliation.</li>
-
-<li>Prepared Trial Balance, Profit & Loss and Balance Sheet.</li>
-
-<li>Maintained inventory and stock records.</li>
-
-<li>Maintained Fixed Asset Register.</li>
-
-<li>Prepared VAT and tax working papers.</li>
-
-<li>Supported month-end and year-end closing.</li>
-
-<li>Developed financial reports using Microsoft Excel.</li>
-
-<li>Prepared budgeting and forecasting reports.</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects">
-
-<div class="container">
-
-<h2 class="section-title">Featured Projects</h2>
-
-<div class="projects-grid">
-
-<div class="project-card">
-
-<img src="fraud_dashboard.png" alt="Bank Fraud Dashboard">
-
-<h3>Bank Fraud Detection Dashboard</h3>
-
-<p>
-
-Developed an interactive Power BI dashboard to identify fraudulent banking
-transactions using KPIs, DAX measures, Power Query, trend analysis and
-interactive visualizations.
-
-</p>
-
-<a href="fraud_dashboard.png" target="_blank">
-
-View Project
-
-</a>
-
-</div>
-
-
-
-<div class="project-card">
-
-<img src="meridian_dashboard.png" alt="Financial Dashboard">
-
-<h3>Financial Dashboard</h3>
-
-<p>
-
-Built a professional financial dashboard using Power BI for revenue,
-expenses, profitability and management reporting with interactive charts.
-
-</p>
-
-<a href="meridian_dashboard.png" target="_blank">
-
-View Project
-
-</a>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>Colgate-Palmolive Financial Modeling & Valuation</h3>
-
-<p>
-
-Developed a comprehensive three-statement financial model in Microsoft
-Excel including DCF Valuation, WACC, Forecasting, Financial Ratio Analysis,
-Sensitivity Analysis and Business Valuation.
-
-</p>
-
-<ul>
-
-<li>Financial Modeling</li>
-
-<li>DCF Valuation</li>
-
-<li>Forecasting</li>
-
-<li>Ratio Analysis</li>
-
-<li>Business Valuation</li>
-
-</ul>
-
-</div>
-
-
-
-<div class="project-card">
-
-<h3>SQL Financial Analysis Project</h3>
-
-<p>
-
-Designed and queried a financial database using PostgreSQL.
-
-Created advanced SQL queries for revenue analysis,
-profitability reporting, customer analysis and business intelligence.
-
-</p>
-
-<ul>
-
-<li>Joins</li>
-
-<li>CTEs</li>
-
-<li>Window Functions</li>
-
-<li>Subqueries</li>
-
-<li>Views</li>
-
-<li>Aggregate Functions</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-
-
-<!-- ================= EDUCATION ================= -->
-
-<section id="education">
-
-<div class="container">
-
-<h2 class="section-title">Education</h2>
-
-<div class="education-grid">
-
-<div class="education-card">
-
-<h3>Bachelor of Business Administration (Hons.)</h3>
-
-<p>Accounting & Finance</p>
-
-</div>
-
-<div class="education-card">
-
-<h3>Advanced Diploma in Public Accounting</h3>
-
-<p>ICPAP</p>
-
-</div>
-
-<div class="education-card">
-
-<h3>Post Graduate Diploma in Public Accounting</h3>
-
-<p>ICPAP</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
+<main class="wrap">
+
+  <!-- SUMMARY -->
+  <section>
+    <h2>Professional Summary</h2>
+    <p class="lead">
+      Accounting and finance professional with hands-on experience managing the full accounting cycle —
+      general ledger, accounts payable and receivable, bank reconciliations, inventory records and monthly
+      financial reporting. Holds a BBA (Hons) in Accounting and Finance (CGPA 3.56), together with the Post
+      Graduate and Advanced Diplomas in Public Accounting from ICPAP. Registered member of the Saudi
+      Organization for Chartered and Professional Accountants (SOCPA) and certified in Financial Modeling &amp;
+      Valuation by IIM SKILLS. Strong working knowledge of IFRS-based financial reporting, month-end and
+      year-end closing, tax working schedules and advanced Microsoft Excel. All academic and professional
+      documents are fully attested for employment in Saudi Arabia.
+    </p>
+  </section>
+
+  <!-- CORE COMPETENCIES -->
+  <section>
+    <h2>Core Competencies</h2>
+    <ul class="grid">
+      <li>Full Accounting Cycle &amp; General Ledger Management</li>
+      <li>Accounts Payable &amp; Supplier Reconciliation</li>
+      <li>Accounts Receivable, Invoicing &amp; Collections</li>
+      <li>Bank Reconciliation &amp; Daily Cash Position Monitoring</li>
+      <li>Month-End &amp; Year-End Closing Support</li>
+      <li>Financial Statements &amp; Management Reporting</li>
+      <li>Inventory, Stock Reconciliation &amp; Cost of Goods Sold</li>
+      <li>Fixed Asset Register &amp; Depreciation Schedules</li>
+      <li>Tax Working Schedules &amp; Audit Support</li>
+      <li>IFRS &amp; Applicable Accounting Standards</li>
+      <li>Budgeting, Forecasting &amp; Variance Analysis</li>
+      <li>Internal Controls &amp; Accounting Document Control</li>
+      <li>Advanced Microsoft Excel &amp; Financial Modeling</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Discounted Cash Flow Valuation — Colgate-Palmolive</h3>
+        <p>Forecast revenue, operating expenses, capital expenditure, working capital and free cash flow,
+           then calculated WACC, terminal value and enterprise value to derive an intrinsic share valuation.</p>
+        <span class="tag">DCF</span><span class="tag">Valuation</span><span class="tag">Excel</span>
+      </div>
+      <div class="card">
+        <h3>Leveraged Buyout (LBO) Model</h3>
+        <p>Built debt repayment schedules and multi-year cash-flow forecasts, and calculated the internal
+           rate of return (IRR) and multiple on invested capital (MOIC) for the transaction.</p>
+        <span class="tag">LBO</span><span class="tag">IRR / MOIC</span><span class="tag">Modeling</span>
+      </div>
+      <div class="card">
+        <h3>Three-Statement Financial Model</h3>
+        <p>Linked income statement, balance sheet and cash-flow statement into an integrated, driver-based
+           model with scenario and sensitivity analysis.</p>
+        <span class="tag">3-Statement</span><span class="tag">Forecasting</span><span class="tag">Scenario Analysis</span>
+      </div>
+      <div class="card">
+        <h3>Excel Reporting Dashboards</h3>
+        <p>Designed management dashboards for receivables ageing, cost analysis, budgeting and forecasting
+           using PivotTables, Power Query and dynamic lookups.</p>
+        <span class="tag">Dashboards</span><span class="tag">Power Query</span><span class="tag">PivotTables</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE (fill with real roles only) -->
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="note">
+      Add your real work experience here. For each role include: <em>Job title, Company, City, Country,
+      start–end dates,</em> and 3–5 bullet points describing what you actually did. Only list positions you
+      genuinely held so your profile matches GOSI/Qiwa and document verification.
+    </div>
+    <!--
+      TEMPLATE — copy this block for each real job and fill it in:
+
+      <div class="item">
+        <h3>Job Title — Company Name</h3>
+        <div class="meta">City, Country · Month Year – Month Year</div>
+        <ul>
+          <li>Responsibility / achievement one</li>
+          <li>Responsibility / achievement two</li>
+          <li>Responsibility / achievement three</li>
+        </ul>
+      </div>
+    -->
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <h3>Bachelor of Business Administration (Hons), Accounting &amp; Finance</h3>
+      <div class="meta">Khushal Khan Khattak University, Karak, Pakistan · 2021 – 2025</div>
+      <ul>
+        <li>CGPA 3.56 / 4.00 (78%), 138 credit hours completed.</li>
+        <li>Degree and transcript attested by the HEC and countersigned by the Ministry of Foreign Affairs.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <h2>Certifications</h2>
+    <div class="item">
+      <h3>Registered Member — SOCPA</h3>
+      <div class="meta">Saudi Organization for Chartered and Professional Accountants, Riyadh · Current</div>
+    </div>
+    <div class="item">
+      <h3>Post Graduate Diploma in Public Accounting</h3>
+      <div class="meta">ICPAP — Institute of Certified Public Accountants of Pakistan · Attested (MoFA &amp; Royal Embassy of Saudi Arabia)</div>
+    </div>
+    <div class="item">
+      <h3>Advanced Diploma in Public Accounting</h3>
+      <div class="meta">ICPAP · Attested (MoFA &amp; Royal Embassy of Saudi Arabia)</div>
+    </div>
+    <div class="item">
+      <h3>Certified in Financial Modeling &amp; Valuation</h3>
+      <div class="meta">IIM SKILLS, India · Certificate ID 64A2566F56</div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <p><strong>Microsoft Excel (Advanced):</strong> PivotTables, VLOOKUP, XLOOKUP, INDEX-MATCH, SUMIFS,
+       Power Query, Data Validation, What-If Analysis, dashboards and three-statement financial models.</p>
+    <p><strong>Reporting &amp; Compliance:</strong> IFRS-based financial statements, tax working schedules,
+       audit schedules and internal-control documentation.</p>
+    <p><strong>Other Tools:</strong> Power BI, SQL, Microsoft Word, PowerPoint and Outlook.</p>
+    <p><strong>Languages:</strong> English (professional working proficiency), Urdu (native),
+       Pashto (native), Arabic (basic).</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Shahzaib Ahmad · Accountant &amp; Finance Professional ·
+    <a href="mailto:shahzaibahmadllc@gmail.com">shahzaibahmadllc@gmail.com</a> ·
+    <a href="https://www.linkedin.com/in/shahzaibahmadllc" target="_blank">LinkedIn</a><br>
+    All academic and professional documents fully attested and available for verification.
+  </div>
+</footer>
+
+</body>
+</html>
 

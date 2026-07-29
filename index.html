@@ -1,186 +1,746 @@
+Portfolio/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│   ├── profile.jpg
+│   ├── resume.pdf
+│   ├── colgate-financial-model.png
+│   ├── banking-fraud-dashboard.png
+│   ├── sql-project.png
+│   ├── excel-dashboard.png
+│   └── favicon.ico
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shahzaib Ahmad — Accountant & Financial Data Analyst</title>
-<meta name="description" content="Portfolio of Shahzaib Ahmad — ICPAP-qualified accountant and financial data analyst specializing in Accounts Payable, SQL, Excel, and Power BI.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shahzaib Ahmad | Accountant | Financial Analyst</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <a class="nav-name" href="index.html">SHAHZAIB AHMAD</a>
-    <span class="nav-links">
-      <a href="index.html" class="active">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="index.html#skills">Skills</a>
-      <a href="index.html#credentials">Credentials</a>
-      <a href="index.html#contact">Contact</a>
-    </span>
-  </div>
-</nav>
+<header>
 
-<header class="ledger-bg">
-  <div class="wrap">
-    <div class="hero">
-      <div>
-        <p class="eyebrow">Accountant · Financial Data Analyst · Riyadh</p>
-        <h1>Financial data,<br>fully reconciled.</h1>
-        <p class="hero-sub">ICPAP-qualified accountant (Advanced &amp; Post Graduate Diplomas, KSA-attested) who builds the analysis layer too — <strong>Accounts Payable operations</strong> by trade, with <strong>SQL, Excel, and Power BI</strong> to turn the ledger into decisions.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="Shahzaib_Ahmad_CV.pdf" download>Download CV</a>
-          <a class="btn btn-ghost" href="projects.html">View projects</a>
-        </div>
-      </div>
-      <img class="hero-photo" src="photo.jpg" alt="Portrait of Shahzaib Ahmad">
-    </div>
-  </div>
-</header>
+<div class="container">
 
-<div class="tb-strip">
-  <div class="wrap">
-    <table class="tb-table" aria-label="Career summary presented as a trial balance">
-      <caption>Trial balance — career to date</caption>
-      <tr><td>Years in Accounts Payable operations</td><td>1.5</td></tr>
-      <tr><td>Financial modeling &amp; BI projects delivered</td><td>3</td></tr>
-      <tr><td>SQL queries written for fraud &amp; AP analytics</td><td>15+</td></tr>
-      <tr><td>Rows of financial data in current capstone</td><td>200,000+</td></tr>
-      <tr class="tb-total"><td>Qualifications completed (BBA · ADPA · PGDPA · FMVA)</td><td>4</td></tr>
-    </table>
-  </div>
+<div class="logo">
+    Shahzaib Ahmad
 </div>
 
-<section id="about">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-label">About</span>
-      <h2>The accountant who queries the database himself</h2>
-      <hr class="double-rule">
-    </div>
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p>I began my career in the accounts department at <strong>Al Sehar International</strong> in Faisalabad (Jan 2025 – May 2026) — processing vendor invoices, reconciling accounts, and closing the month. That's where I learned that most of an accountant's time goes into finding and fixing data problems, not accounting itself.</p>
-        <p>So I built the toolkit for it: <strong>advanced Excel</strong> for modeling and scenario forecasting, <strong>SQL</strong> for pulling and cleaning data at scale, and <strong>Power BI</strong> for turning monthly reporting into something management actually reads. In 2026 I completed the <strong>ICPAP Advanced and Post Graduate Diplomas in Public Accounting</strong> — both attested for Saudi Arabia — and a <strong>Financial Modeling &amp; Valuation certification</strong> from IIM Skills.</p>
-        <p>I'm currently specializing in <strong>SAP Accounts Payable / P2P</strong> processes and building a 200,000-row AP analytics capstone. My goal is simple: be the person in the finance team who doesn't wait for a report — the one who builds it.</p>
-      </div>
-      <div class="about-facts reveal">
-        <div class="fact"><span class="k">Experience</span><span class="v">Accountant — Al Sehar International (Jan 2025 – May 2026) · <a class="cred-link" href="AlSehar_Experience_Certificate.pdf" target="_blank" rel="noopener">View letter ↗</a></span></div>
-        <div class="fact"><span class="k">Status</span><span class="v">Open to opportunities</span></div>
-        <div class="fact"><span class="k">Based in</span><span class="v">Riyadh, Saudi Arabia</span></div>
-        <div class="fact"><span class="k">Specializing in</span><span class="v">Accounts Payable / P2P analytics</span></div>
-        <div class="fact"><span class="k">Qualified</span><span class="v">ICPAP ADPA &amp; PGDPA (KSA-attested) · FMVA (IIM Skills)</span></div>
-        <div class="fact"><span class="k">Studying</span><span class="v">SAP AP module</span></div>
-      </div>
-    </div>
-  </div>
+<nav>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<section class="hero" id="home">
+
+<div class="container hero-content">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span>Shahzaib Ahmad</span></h1>
+
+<h2>Accountant | Financial Analyst | SOCPA Registered Member</h2>
+
+<p>
+
+Accounting & Finance professional with expertise in Financial Reporting,
+General Ledger, Accounts Payable, Accounts Receivable, Financial Modeling,
+Power BI, SQL, Advanced Excel and Business Intelligence.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#projects" class="btn">View Projects</a>
+
+<a href="assets/resume.pdf" class="btn-secondary" target="_blank">
+
+Download Resume
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="assets/profile.jpg" alt="Shahzaib Ahmad">
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+<div class="container">
+
+<h2 class="section-title">About Me</h2>
+
+<p class="about-text">
+
+I am an Accounting and Finance professional with practical experience in
+General Ledger, Accounts Payable, Accounts Receivable, Bank Reconciliation,
+Financial Reporting, Inventory Management and Financial Analysis.
+
+I hold a Bachelor's degree in Accounting & Finance together with the
+Advanced Diploma and Post Graduate Diploma in Public Accounting.
+I am a registered member of the Saudi Organization for Chartered and
+Professional Accountants (SOCPA).
+
+I enjoy transforming financial data into meaningful business insights using
+Microsoft Excel, Power BI and SQL.
+
+My goal is to build a successful career as a Financial Accountant,
+Financial Analyst and Business Intelligence Professional.
+
+</p>
+
+</div>
+
 </section>
 
-<section id="skills" style="padding-top: 0;">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-label">Skills</span>
-      <h2>Toolkit</h2>
-      <hr class="double-rule">
-    </div>
-    <div class="skills-grid">
-      <div class="skill-group reveal">
-        <h3>Accounting &amp; Finance</h3>
-        <div class="tags">
-          <span class="tag">Accounts Payable</span><span class="tag">Vendor Reconciliation</span>
-          <span class="tag">Month-End Close</span><span class="tag">Ratio Analysis</span>
-          <span class="tag">Financial Statements</span><span class="tag">DCF Valuation</span>
-          <span class="tag">Budgeting &amp; Forecasting</span>
-        </div>
-      </div>
-      <div class="skill-group reveal">
-        <h3>Data &amp; Analysis</h3>
-        <div class="tags">
-          <span class="tag">SQL</span><span class="tag">Window Functions</span>
-          <span class="tag">Advanced Excel</span><span class="tag">Power Query</span>
-          <span class="tag">Scenario Modeling</span><span class="tag">Data Cleaning</span>
-        </div>
-      </div>
-      <div class="skill-group reveal">
-        <h3>Business Intelligence</h3>
-        <div class="tags">
-          <span class="tag">Power BI</span><span class="tag">DAX</span>
-          <span class="tag">Star Schema Modeling</span><span class="tag">Dashboard Design</span>
-          <span class="tag">KPI Reporting</span>
-        </div>
-      </div>
-      <div class="skill-group reveal">
-        <h3>Systems</h3>
-        <div class="tags">
-          <span class="tag learning">SAP AP / P2P — in progress</span>
-          <span class="tag">MIRO · MIGO · FB60 · F110</span>
-          <span class="tag">Three-Way Match</span>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="skills" id="skills">
+
+<div class="container">
+
+<h2 class="section-title">Professional Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>Accounting</h3>
+<p>General Ledger, Journal Entries, Trial Balance, Financial Reporting</p>
+</div>
+
+<div class="skill-card">
+<h3>Accounts Payable</h3>
+<p>Vendor Payments, Supplier Reconciliation, Invoice Processing</p>
+</div>
+
+<div class="skill-card">
+<h3>Accounts Receivable</h3>
+<p>Customer Invoicing, Collections, Ageing Reports</p>
+</div>
+
+<div class="skill-card">
+<h3>Financial Statements</h3>
+<p>Balance Sheet, Profit & Loss, Cash Flow Statements</p>
+</div>
+
+<div class="skill-card">
+<h3>Financial Modeling</h3>
+<p>DCF Valuation, Forecasting, Budgeting, Sensitivity Analysis</p>
+</div>
+
+<div class="skill-card">
+<h3>Microsoft Excel</h3>
+<p>Pivot Tables, Power Query, Dashboards, Advanced Formulas</p>
+</div>
+
+<div class="skill-card">
+<h3>Power BI</h3>
+<p>DAX, Power Query, Data Modeling, KPI Dashboards</p>
+</div>
+
+<div class="skill-card">
+<h3>SQL</h3>
+<p>PostgreSQL, SQL Server, Joins, CTEs, Window Functions</p>
+</div>
+
+<div class="skill-card">
+<h3>Financial Analysis</h3>
+<p>Ratio Analysis, Variance Analysis, Budgeting & Forecasting</p>
+</div>
+
+<div class="skill-card">
+<h3>Inventory Control</h3>
+<p>Warehouse Inventory, Stock Reconciliation, Cost Analysis</p>
+</div>
+
+<div class="skill-card">
+<h3>SOCPA</h3>
+<p>Saudi Accounting Standards, VAT Knowledge, IFRS</p>
+</div>
+
+<div class="skill-card">
+<h3>Soft Skills</h3>
+<p>Problem Solving, Communication, Teamwork, Time Management</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= EXPERIENCE ================= -->
+
+<section class="experience" id="experience">
+
+<div class="container">
+
+<h2 class="section-title">Professional Experience</h2>
+
+<div class="timeline">
+
+<!-- Job 1 -->
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Accountant</h3>
+
+<h4>Amirah Meshal Foods | Riyadh, Saudi Arabia</h4>
+
+<span class="date">October 2025 – March 2026</span>
+
+<p>
+
+Responsible for managing warehouse inventory, stock reconciliation,
+purchase and sales invoicing, cash handling, supplier payments,
+customer receipts and daily accounting transactions.
+Supported financial reporting by maintaining accurate accounting
+records and ensuring inventory accuracy across warehouse operations.
+
+</p>
+
+<ul>
+
+<li>Managed warehouse inventory and stock control.</li>
+
+<li>Performed daily stock reconciliation and inventory verification.</li>
+
+<li>Prepared purchase invoices and sales invoices.</li>
+
+<li>Recorded daily expenses, receipts and supplier payments.</li>
+
+<li>Maintained customer payment records.</li>
+
+<li>Handled petty cash and daily cash reconciliation.</li>
+
+<li>Supported monthly financial reporting.</li>
+
+<li>Maintained accounting documentation for audit purposes.</li>
+
+<li>Worked closely with warehouse and procurement departments.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<!-- Job 2 -->
+
+<div class="timeline-item">
+
+<div class="timeline-content">
+
+<h3>Financial Accountant</h3>
+
+<h4>Dar Ul Asas (Khair Al Daim) | Riyadh, Saudi Arabia</h4>
+
+<span class="date">January 2025 – July 2025</span>
+
+<p>
+
+Managed the complete accounting cycle including general ledger,
+journal entries, accounts payable, accounts receivable,
+bank reconciliations and financial reporting.
+Prepared monthly financial statements and supported
+management reporting and budgeting activities.
+
+</p>
+
+<ul>
+
+<li>Managed General Ledger and Journal Entries.</li>
+
+<li>Prepared monthly Trial Balance, Profit & Loss and Balance Sheet.</li>
+
+<li>Maintained Accounts Receivable and customer collections.</li>
+
+<li>Processed supplier invoices and Accounts Payable.</li>
+
+<li>Performed monthly bank reconciliations.</li>
+
+<li>Maintained inventory records and stock reconciliation.</li>
+
+<li>Managed fixed asset register and depreciation schedules.</li>
+
+<li>Prepared VAT and withholding tax working papers.</li>
+
+<li>Supported month-end and year-end closing activities.</li>
+
+<li>Developed advanced Excel dashboards for financial reporting.</li>
+
+<li>Prepared budgeting and forecasting reports.</li>
+
+<li>Supported internal and external audit activities.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= PROJECTS ================= -->
+
+<section class="projects" id="projects">
+
+<div class="container">
+
+<h2 class="section-title">Featured Projects</h2>
+
+<p class="section-subtitle">
+
+A selection of finance, accounting, data analytics and business intelligence
+projects demonstrating practical skills in Financial Modeling,
+Power BI, SQL and Advanced Microsoft Excel.
+
+</p>
+
+<div class="projects-grid">
+
+<!-- Project 1 -->
+
+<div class="project-card">
+
+<img src="assets/colgate-financial-model.png" alt="Colgate Financial Model">
+
+<div class="project-content">
+
+<h3>Colgate-Palmolive Financial Modeling & Valuation</h3>
+
+<p>
+
+Developed a comprehensive three-statement financial model using Microsoft Excel.
+Performed forecasting, financial statement analysis and Discounted Cash Flow (DCF)
+valuation to estimate enterprise and equity value.
+
+</p>
+
+<h4>Key Highlights</h4>
+
+<ul>
+
+<li>Three-Statement Financial Model</li>
+
+<li>Revenue & Expense Forecasting</li>
+
+<li>Balance Sheet Forecast</li>
+
+<li>Cash Flow Forecast</li>
+
+<li>Discounted Cash Flow (DCF)</li>
+
+<li>WACC Calculation</li>
+
+<li>Sensitivity Analysis</li>
+
+<li>Ratio Analysis</li>
+
+<li>Business Valuation</li>
+
+</ul>
+
+<p><strong>Tools:</strong> Microsoft Excel, Financial Modeling, Valuation</p>
+
+</div>
+
+</div>
+
+<!-- Project 2 -->
+
+<div class="project-card">
+
+<img src="assets/banking-fraud-dashboard.png" alt="Bank Fraud Dashboard">
+
+<div class="project-content">
+
+<h3>Banking Fraud Detection Dashboard</h3>
+
+<p>
+
+Designed an interactive Power BI dashboard to analyze fraudulent banking
+transactions using KPIs, dynamic charts and drill-through reports,
+helping identify fraud trends and operational risks.
+
+</p>
+
+<h4>Dashboard Features</h4>
+
+<ul>
+
+<li>Fraud KPIs</li>
+
+<li>Risk Analysis</li>
+
+<li>Transaction Monitoring</li>
+
+<li>Interactive Filters</li>
+
+<li>DAX Measures</li>
+
+<li>Power Query</li>
+
+<li>Executive Dashboard</li>
+
+<li>Customer Analysis</li>
+
+<li>Trend Analysis</li>
+
+</ul>
+
+<p><strong>Tools:</strong> Power BI, DAX, Power Query, Excel</p>
+
+</div>
+
+</div>
+
+<!-- Project 3 -->
+
+<div class="project-card">
+
+<img src="assets/sql-project.png" alt="SQL Project">
+
+<div class="project-content">
+
+<h3>SQL Financial Analysis Project</h3>
+
+<p>
+
+Designed and analyzed a financial database using PostgreSQL.
+Built advanced SQL queries to generate management reports,
+analyze profitability, revenue trends and customer performance.
+
+</p>
+
+<h4>SQL Concepts Used</h4>
+
+<ul>
+
+<li>Joins</li>
+
+<li>Common Table Expressions (CTEs)</li>
+
+<li>Window Functions</li>
+
+<li>Subqueries</li>
+
+<li>Aggregate Functions</li>
+
+<li>Views</li>
+
+<li>Data Cleaning</li>
+
+<li>Financial Reporting</li>
+
+<li>Business Intelligence Queries</li>
+
+</ul>
+
+<p><strong>Tools:</strong> PostgreSQL, SQL Server, pgAdmin</p>
+
+</div>
+
+</div>
+
+<!-- Project 4 -->
+
+<div class="project-card">
+
+<img src="assets/excel-dashboard.png" alt="Excel Dashboard">
+
+<div class="project-content">
+
+<h3>Financial Dashboard in Microsoft Excel</h3>
+
+<p>
+
+Built an interactive financial dashboard using Pivot Tables,
+Power Query, Charts and Advanced Excel formulas to monitor
+revenue, expenses, profitability and business performance.
+
+</p>
+
+<h4>Dashboard Features</h4>
+
+<ul>
+
+<li>Pivot Tables</li>
+
+<li>Power Query</li>
+
+<li>Financial KPIs</li>
+
+<li>Dynamic Charts</li>
+
+<li>Budget Analysis</li>
+
+<li>Variance Analysis</li>
+
+<li>Expense Tracking</li>
+
+<li>Revenue Dashboard</li>
+
+<li>Executive Reporting</li>
+
+</ul>
+
+<p><strong>Tools:</strong> Microsoft Excel, Pivot Tables, Power Query</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= EDUCATION ================= -->
+
+<section class="education" id="education">
+
+<div class="container">
+
+<h2 class="section-title">Education</h2>
+
+<div class="education-grid">
+
+<div class="education-card">
+
+<h3>Bachelor of Business Administration (Hons.)</h3>
+
+<h4>Accounting & Finance</h4>
+
+<p>
+Graduated with a strong academic background in Financial Accounting,
+Management Accounting, Corporate Finance, Financial Management,
+Auditing, Taxation and Business Analytics.
+</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>Advanced Diploma in Public Accounting</h3>
+
+<h4>ICPAP – Pakistan</h4>
+
+<p>
+Completed advanced accounting studies covering Financial Reporting,
+Auditing, Taxation, Corporate Law and Professional Accounting.
+</p>
+
+</div>
+
+<div class="education-card">
+
+<h3>Post Graduate Diploma in Public Accounting</h3>
+
+<h4>ICPAP – Pakistan</h4>
+
+<p>
+Successfully completed postgraduate studies in Accounting,
+Corporate Finance and Financial Reporting.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="credentials" style="padding-top: 0;">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-label">Credentials</span>
-      <h2>Education &amp; certifications</h2>
-      <hr class="double-rule">
-    </div>
-    <table class="cred-table reveal">
-      <tr>
-        <td><div class="cred-name">Post Graduate Diploma in Public Accounting <span class="attest">KSA attested</span></div><div class="cred-inst">Institute of Certified Public Accountants of Pakistan (ICPAP) · <a class="cred-link" href="ICPAP_Diplomas_Attested.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></td>
-        <td class="cred-date">Jun 2026</td>
-      </tr>
-      <tr>
-        <td><div class="cred-name">Advanced Diploma in Public Accounting <span class="attest">KSA attested</span></div><div class="cred-inst">Institute of Certified Public Accountants of Pakistan (ICPAP) · <a class="cred-link" href="ICPAP_Diplomas_Attested.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></td>
-        <td class="cred-date">Jun 2026</td>
-      </tr>
-      <tr>
-        <td><div class="cred-name">Financial Modeling &amp; Valuation Certification</div><div class="cred-inst">IIM Skills, India · <a class="cred-link" href="FMVA_Certificate.pdf" target="_blank" rel="noopener">View certificate ↗</a></div></td>
-        <td class="cred-date">Jul 2026</td>
-      </tr>
-      <tr>
-        <td><div class="cred-name">BBA (Hons) — Accounting &amp; Finance <span class="attest">HEC attested</span></div><div class="cred-inst">Khushal Khan Khattak University, Karak, Pakistan · CGPA 3.56/4.00 · <a class="cred-link" href="BBA_Degree_HEC_Attested.pdf" target="_blank" rel="noopener">View degree &amp; transcript ↗</a></div></td>
-        <td class="cred-date">2021 – 2025</td>
-      </tr>
-    </table>
-  </div>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section class="certifications">
+
+<div class="container">
+
+<h2 class="section-title">Professional Certifications</h2>
+
+<div class="cert-grid">
+
+<div class="cert-card">
+<h3>SOCPA Registered Member</h3>
+<p>Saudi Organization for Chartered and Professional Accountants</p>
+</div>
+
+<div class="cert-card">
+<h3>Financial Modeling & Valuation</h3>
+<p>IIM Skills, India</p>
+</div>
+
+<div class="cert-card">
+<h3>JP Morgan Investment Banking Virtual Experience</h3>
+<p>Forage</p>
+</div>
+
+<div class="cert-card">
+<h3>Advanced Microsoft Excel</h3>
+<p>Data Analysis & Financial Reporting</p>
+</div>
+
+<div class="cert-card">
+<h3>Power BI</h3>
+<p>Business Intelligence & Dashboard Development</p>
+</div>
+
+<div class="cert-card">
+<h3>SQL</h3>
+<p>Database Management & Financial Analysis</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section id="contact" class="contact-band">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="sec-label">Contact</span>
-      <h2>Let's talk</h2>
-    </div>
-    <p class="reveal">Open to Accounts Payable, P2P, and finance-analytics roles. The fastest way to reach me is email — I typically reply within a day.</p>
-    <div class="contact-links reveal">
-      <a class="btn btn-primary" href="mailto:shahzabahmadllc@gmail.com">shahzabahmadllc@gmail.com</a>
-      <a class="btn btn-ghost" href="https://www.linkedin.com/in/shahzaib-ahmad-0a3155265" target="_blank" rel="noopener">LinkedIn</a>
-      <a class="btn btn-ghost" href="tel:+923180905907">+92 318 0905907</a>
-    </div>
-  </div>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<h2 class="section-title">Let's Connect</h2>
+
+<p>
+
+I am currently available for opportunities in Accounting,
+Finance, Financial Analysis and Business Intelligence.
+
+</p>
+
+<div class="contact-info">
+
+<p><strong>Name:</strong> Shahzaib Ahmad</p>
+
+<p><strong>Email:</strong> shahzaibahmadllc@gmail.com</p>
+
+<p><strong>Phone:</strong> +92 318 090 5907</p>
+
+<p><strong>Nationality:</strong> Pakistani</p>
+
+<p><strong>Location:</strong> Saudi Arabia</p>
+
+<p><strong>Availability:</strong> Immediately Available</p>
+
+<p>
+
+<strong>LinkedIn:</strong>
+
+<a href="https://linkedin.com/in/shahzaibahmadllc" target="_blank">
+
+linkedin.com/in/shahzaibahmadllc
+
+</a>
+
+</p>
+
+<p>
+
+<strong>Portfolio:</strong>
+
+<a href="https://shahzaibahmadllc.github.io" target="_blank">
+
+shahzaibahmadllc.github.io
+
+</a>
+
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
-  <div class="wrap">
-    <span>© 2026 Shahzaib Ahmad</span>
-    <span>Dr Curiosity · Cr Insight — balanced.</span>
-  </div>
+
+<div class="container">
+
+<h2>Shahzaib Ahmad</h2>
+
+<p>
+
+Accountant • Finance Professional • Financial Analyst • Power BI • SQL • Financial Modeling
+
+</p>
+
+<p>
+
+© 2026 Shahzaib Ahmad. All Rights Reserved.
+
+</p>
+
+</div>
+
 </footer>
 
-<script>
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
+
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
